@@ -3,8 +3,8 @@ from tensorflow import keras
 
 ndata = tf.keras.datasets.mnist
 (x_train, y_train), (x_test, y_test) = ndata.load_data()
-print(x_test.shape)
-print(x_train.shape)
+#print(x_test.shape)
+#print(x_train.shape)
 x_train, x_test = x_train/255 , x_test/255
 
 model = tf.keras.models.Sequential([
@@ -18,3 +18,6 @@ model.compile(optimizer='adam',
               metrics=['accuracy']
               )
 model.fit(x_train, y_train, epochs=5)
+
+#evaluating acuuracy
+model.evaluate(x_test, y_test)
