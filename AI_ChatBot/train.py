@@ -3,6 +3,7 @@ import random
 import json
 import nltk
 #nltk.download('punkt')
+#nltk.download('wordnet')
 
 import numpy as np
 from nltk.stem import WordNetLemmatizer
@@ -25,4 +26,9 @@ for i in intent['intent']:
         documents.append((word_list, i['tags']))
         if i['tags'] not in classes:
             classes.append(i['tags'])
-print(documents)
+
+words = [lemmatizer.lemmatize(w) for w in words if w not in letter_ignore]
+words = sorted(set(words))
+classes = sorted(set(classes))
+pickle.dump(words, open('words.pkl', 'wb'))
+pickle.dump(words, open('classes.pkl', 'wb'))
