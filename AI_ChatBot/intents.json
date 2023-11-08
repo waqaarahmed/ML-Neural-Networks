@@ -1,0 +1,37 @@
+{"intents":[
+  {
+    "tag": "greetings",
+    "patterns": ["Hello", "Hey", "Hi", "Good day", "How's it going?", "Whats up?"],
+    "response": ["Hello", "Hey", "Hi", "What can i do for you today"]
+  },
+  {
+    "tag": "goodBye",
+    "patterns": ["Bye", "See you later", "Cya", "Have a Good day!", "Goodbye", "chow"],
+    "response": ["Goodbye!", "Talk to you later!", "Bye"]
+  },
+  {
+    "tag": "age",
+    "patterns": ["age?", "How old?", "How old are you?", "What is your age?"],
+    "response": ["I am zero years old."]
+  },
+  {
+    "tag": "name",
+    "patterns": ["What is your name?", "What can i call you?", "name?", "What's your name?", "Can you tell me your name?"],
+    "response": ["You can call me Alex.", "I'm John", "My name is Felix", "Randy"]
+  },
+  {
+    "tag": "shop",
+    "patterns": ["What are you selling?", "What do you recommend?", "I would like to buy something", "What products do you have?"],
+    "response": ["We have all varieties of crockery available."]
+  },
+  {
+    "tag": "hours",
+    "patterns": ["What time are you guys open?", "What are your hours?", "Opening time?", "Shop time?", "hours of opening"],
+    "response": ["We are open from 11am to 9pm Everyday."]
+  },
+  {
+    "tag": "stocks",
+    "patterns": ["What are the products in stock?", "What brands do you have?"],
+    "response": ["We have all brands of crockery available."]
+  }
+] }
