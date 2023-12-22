@@ -44,7 +44,7 @@ from pytesseract import Output
 #configuring the page segmentation mode and the OCR engine mode
 config = r"--psm 3 --oem 3"
 
-img = cv.imread("sign.webp")
+img = cv.imread("v1.png")
 height, width, _ = img.shape
 
 data = pyt.image_to_data(img, config=config, output_type=Output.DICT)
