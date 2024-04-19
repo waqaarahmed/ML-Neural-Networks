@@ -24,7 +24,7 @@ Run the script image_classifier.py.
 - When using the saved model:
   - An image is read from the specified folder.
   - The image is preprocessed and passed through the trained model for prediction.
-   -The predicted class label is displayed based on the highest probability.
+  - The predicted class label is displayed based on the highest probability.
 Example
 An example of using the trained model to classify an image is shown below:
 
