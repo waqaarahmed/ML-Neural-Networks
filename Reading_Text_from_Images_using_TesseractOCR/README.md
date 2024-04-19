@@ -46,7 +46,6 @@ print(text)
 - The script utilizes Tesseract OCR for text extraction from images.
 - You can configure the page segmentation mode and OCR engine mode according to your requirements.
 - Adjust the confidence threshold (conf) as needed to filter out low-confidence text detections.
-- Feel free to customize the configurations and integrate these examples into your projects for text extraction from images.
 
 ##### Requirements
 
