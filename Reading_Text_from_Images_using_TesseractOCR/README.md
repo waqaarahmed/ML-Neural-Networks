@@ -4,7 +4,7 @@ This Python script demonstrates how to extract text from images using the Tesser
 It provides examples using both OpenCV and Pillow libraries for image processing.
 
 ## Using OpenCV
-'''
+```
 import cv2 as cv
 import pytesseract as pyt
 from pytesseract import Output
@@ -26,10 +26,10 @@ for i in range(len(data['text'])):
 
 cv.imshow("img", img)
 cv.waitKey(0)
-'''
+```
 
 ### Using Pillow
-'''
+```
 import PIL.Image as pim
 import pytesseract
 
@@ -39,7 +39,7 @@ config = r"--psm 3 --oem 3"
 # Getting text from image using image_to_string() function
 text = pytesseract.image_to_string(pim.open("sign.webp"), config=config)
 print(text)
-'''
+```
 
 #### Note
 
