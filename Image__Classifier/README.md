@@ -10,5 +10,5 @@ This Python script demonstrates how to build, train, and use an image classifier
 You can install the required libraries using pip:
 
 ```bash
-pip install tensorflow matplotlib numpy opencv-python'''
+pip install tensorflow matplotlib numpy opencv-python
 
