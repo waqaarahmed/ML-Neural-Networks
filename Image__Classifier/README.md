@@ -24,8 +24,9 @@ The predicted class label is displayed based on the highest probability.
 Example
 An example of using the trained model to classify an image is shown below:
 
-python
+#python
 Copy code
+'''
 import os
 from tensorflow.keras import models
 import matplotlib.pyplot as plt
@@ -48,7 +49,7 @@ plt.imshow(image, cmap=plt.cm.binary)
 predict = model.predict(np.array([image]) / 255)
 index = np.argmax(predict)
 print(f"Image is of a: {classes[index]}")
-
+'''
 #### Requirements
 
 - Python 3.x
