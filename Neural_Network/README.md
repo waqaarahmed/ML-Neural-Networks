@@ -32,3 +32,40 @@ pip install tensorflow
 5. The model is compiled with the Adam optimizer, sparse categorical crossentropy loss function, and accuracy metrics.
 6. The model is trained on the training dataset for a specified number of epochs.
 7. The accuracy of the trained model is evaluated on the testing dataset.
+
+## Example
+
+```
+import tensorflow as tf
+from tensorflow import keras
+
+# Load the MNIST dataset
+ndata = tf.keras.datasets.mnist
+(x_train, y_train), (x_test, y_test) = ndata.load_data()
+
+# Normalize pixel values
+x_train, x_test = x_train / 255 , x_test / 255
+
+# Define the neural network model
+model = tf.keras.models.Sequential([
+    tf.keras.layers.Flatten(input_shape=(28, 28)),
+    tf.keras.layers.Dense(128, activation='relu'),
+    tf.keras.layers.Dropout(0.2),
+    tf.keras.layers.Dense(10, activation='softmax')
+])
+
+# Compile the model
+model.compile(optimizer='adam',
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy'])
+
+# Train the model
+model.fit(x_train, y_train, epochs=5)
+
+# Evaluate model accuracy
+model.evaluate(x_test, y_test)
+```
+## Note
+
+- This script provides a basic implementation of a neural network for handwritten digit recognition.
+- Adjustments to the model architecture, hyperparameters, and dataset augmentation may improve performance.
