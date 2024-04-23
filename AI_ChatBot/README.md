@@ -11,3 +11,16 @@ You can install the required libraries using pip:
 
 ```bash
 pip install numpy nltk tensorflow
+```
+
+## Project Structure
+
+- `chatbot.py`: Python script containing the chatbot implementation.
+- `intents.json`: JSON file containing predefined intents with patterns and responses.
+- `train.py`: Python script for training the neural network model using the intents data.
+
+## Usage
+
+- Ensure you have the necessary dependencies installed.
+- Run the script `train.py` to train the neural network model.
+- Run the script `chatbot.py` to start the chatbot.
