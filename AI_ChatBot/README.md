@@ -36,3 +36,11 @@ pip install numpy nltk tensorflow
 5. Training data is prepared by creating a bag of words representation for each pattern and one-hot encoding the class labels.
 6. A neural network model is defined using TensorFlow with dense layers and dropout regularization.
 7. The model is compiled with categorical crossentropy loss and trained on the training data.
+
+### Chatbot (chatbot.py)
+
+1. The trained model (`chatbot_model.h5`) and required data files (`words.pkl`, `classes.pkl`, `intents.json`) are loaded.
+2. User input is processed by tokenization, lemmatization, and converting it into a bag of words representation.
+3. The trained model predicts the intent of the user input.
+4. A response is selected based on the predicted intent from the predefined intents in `intents.json`.
+5. The response is displayed to the user.
