@@ -44,3 +44,8 @@ pip install numpy nltk tensorflow
 3. The trained model predicts the intent of the user input.
 4. A response is selected based on the predicted intent from the predefined intents in `intents.json`.
 5. The response is displayed to the user.
+
+## Note 
+
+- This chatbot provides a basic implementation of natural language understanding and response generation.
+- Adjustments to the intents data and neural network architecture may improve performance.
