@@ -4,7 +4,7 @@ This Python script demonstrates how to build and train a neural network for hand
 
 ## Requirements
 
-- Python 3.x
+- Python 3.10
 - TensorFlow
 - Keras
 
