@@ -6,7 +6,7 @@ The LSTM model is trained on past closing prices to predict future prices.
 
 ## Requirements
 
-- Python 3.x
+- Python 3.10
 - Libraries: `matplotlib`, `numpy`, `pandas`, `tensorflow`, `datetime`, `yfinance`
 
 ## Usage
