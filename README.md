@@ -49,6 +49,6 @@ Welcome to the Machine Learning Projects Repository! This repository contains a 
 ## Note
 
 - Each project may have specific dependencies, datasets, or setup instructions. Please refer to the respective project's README.md for detailed information.
-- Feel free to reach out to the project maintainers or contributors for any questions or collaboration opportunities.
+- Feel free to reach out for any questions or collaboration opportunities.
 - Have fun exploring and learning from these machine learning projects!
 
