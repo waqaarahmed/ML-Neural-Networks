@@ -49,7 +49,7 @@ print(text)
 
 ##### Requirements
 
-- Python 3.x
+- Python 3.10
 - Libraries: `opencv-python`, `pytesseract`, `Pillow`
 
 You can install the required libraries using pip:
