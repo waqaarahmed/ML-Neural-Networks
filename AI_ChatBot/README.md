@@ -4,7 +4,7 @@ This Python project implements a simple chatbot using natural language processin
 
 ## Requirements
 
-- Python 3.x
+- Python 3.10
 - Libraries: `numpy`, `nltk`, `tensorflow`
 
 You can install the required libraries using pip:
