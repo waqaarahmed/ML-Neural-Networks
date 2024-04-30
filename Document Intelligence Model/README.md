@@ -4,7 +4,7 @@ This Python script implements a document intelligence model for text classificat
 
 ## Requirements
 
-- Python 3.x
+- Python 3.12
 - Libraries: `pandas`, `scikit-learn`
 
 You can install the required libraries using pip:
